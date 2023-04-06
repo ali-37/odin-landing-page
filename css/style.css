@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.top,
+.footer {
+  background-color: #1F2937;
+  color: white;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-right {
+  display: flex;
+}
+
+.quote {
+  background-color: #E5E7EB;
+}
