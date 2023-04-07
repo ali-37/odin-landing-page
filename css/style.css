@@ -2,7 +2,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  font-size: 18px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -35,6 +34,12 @@ a {
   color: white;
 }
 
+.header-right,
+.title-left p,
+.title-left button {
+  font-size: 18px;
+}
+
 .header-right {
   display: flex;
   gap: 20px
@@ -64,7 +69,7 @@ h1 {
 .title-left {
   display: flex;
   flex-direction: column;
-  width: 430px;
+  width: 440px;
   margin-right: 30px;
   min-width: 200px;
 }
@@ -86,9 +91,9 @@ p {
 .title-left button {
   background-color: #3882F6;
   color: white;
-  width: 80px;
+  width: 110px;
   border: 0;
-  padding: 4px 16px;
+  padding: 5px 22px;
   margin-top: 10px;
   border-radius: 8px; /* rounded corners */
 }
@@ -156,10 +161,59 @@ h2 {
   width: 840px;
 }
 
-.thor {
-  align-self: flex-end;
+.thor,
+.action {
   font-weight: 700;
   font-size: 22px;
+}
+
+.thor {
+  align-self: flex-end;
   margin: 0;
 }
+
+
+.sign-up-section {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up {
+  background-color: #3882F6;
+  color: white;
+  padding: 40px 80px;
+  border-radius: 10px;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-up-text p {
+  margin-left: 0;
+}
+
+.sign-up-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sign-up button {
+  background-color: #3882F6;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 0 26px;
+}
+
+.footer {
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
