@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   margin: 0;
   font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
 
 .top,
@@ -37,10 +38,6 @@ a {
 .header-right {
   display: flex;
   gap: 20px
-}
-
-.quote {
-  background-color: #E5E7EB;
 }
 
 h1 {
@@ -117,8 +114,8 @@ h2 {
 
 .info-box {
   border:2px solid #3882F6;
-  height: 150px;
-  width: 150px;
+  height: 170px;
+  width: 170px;
   border-radius: 15px;
 }
 
@@ -130,7 +127,39 @@ h2 {
 }
 
 .info-group p {
-  width: 150px;
+  width: 170px;
   text-align: center;
+}
+
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  height: 400px;
+}
+
+.quote-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  width: 840px;
+}
+
+.thor {
+  align-self: flex-end;
+  font-weight: 700;
+  font-size: 22px;
+  margin: 0;
 }
 
