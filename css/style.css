@@ -45,13 +45,6 @@ a {
   gap: 20px
 }
 
-h1 {
-  color: #F9FAF8;
-  font-size: 48px;
-  font-weight: 800;
-  margin: 0;
-}
-
 .header-logo {
   color: #F9FAF8;
   font-size: 24px;
@@ -64,6 +57,13 @@ h1 {
   align-items: center;
   justify-content: space-between;
   padding-bottom: 120px;
+}
+
+h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
 }
 
 .title-left {
@@ -79,8 +79,8 @@ p {
 }
 
 .placeholder {
-  background-color: grey;
-  padding: 50px 100px;
+  background-color: #6D747D;
+  padding: 50px 120px;
   height: 100px;
   display: flex;
   align-items: center;
@@ -214,6 +214,3 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-
-
-
